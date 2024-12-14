@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* La barra de navegacion    */
+nav {
+    margin-top: 1em;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 0.5em;
+    color: #2c3e50;
+}
+
+/* Los parrafos (?)*/
+section p {
+    line-height: 1.6;
+    margin: 0.5em 0;
+}
+
+section p strong {
+    color: #34495e;
+}
+
+/* EL footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #2c3e50;
+    color: #fff;
+    margin-top: 2em;
+}
+
+/* Responsividada */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+    }
+}

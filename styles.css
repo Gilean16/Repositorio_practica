@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background: linear-gradient(120deg, #1c1c3c, #2a0845);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #1c1c3c;
+    color: #ffde59;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #ffde59;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.parallax {
+    background-image: url('https://concepto.de/wp-content/uploads/2018/08/mecanica-cuantica-atomo-e1533932155397-800x400.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffde59;
+    margin-top: 0;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+a {
+    color: #ffde59;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background: #ffde59;
+    color: #1c1c3c;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #e6c444;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2a0845;
+    color: #ffffff;
+    margin-top: 2rem;
+}
